@@ -1,0 +1,14 @@
+img {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: darkgrey;
+    padding: 30px;
+}
