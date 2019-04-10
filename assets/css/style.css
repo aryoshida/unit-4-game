@@ -1,14 +1,71 @@
-img {
-    width: 250px;
-    height: 250px;
-    margin: 15px;
-    cursor: pointer;
-    border: 5px solid black;
+/* basic every page layout */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .wrapper {
-    width: 1200px;
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+#my_name {
+    float: left;
+    position: absolute;
+    background-color: rgb(18, 114, 117);
+    color: white;
+    height: 56px;
+    font-weight: bold;
+    font-size: 24px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 15px 10px;
+}
+
+.header {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(80, 76, 76);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 10px solid rgb(18, 114, 117);
+    position: absolute;
+    color: white;
+}
+
+.center_container {
     margin: auto;
-    background-color: darkgrey;
-    padding: 30px;
+    width: 960px;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* game css */
+img {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    cursor: pointer;
+    border: 5px solid black;
 }
